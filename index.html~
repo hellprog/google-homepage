@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google-homepage</title>
+	<meta content="text/html" charset="utf-8" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+	<div id="header">
+		<input type="button" value="Войти" id="ent" />
+		<div id="bla">
+			<div class="rect"></div>
+			<div class="rect"></div>
+			<div class="rect"></div>
+			<div class="rect"></div>
+			<div class="rect"></div>
+			<div class="rect"></div>
+			<div class="rect"></div>
+			<div class="rect"></div>
+			<div class="rect"></div>
+		</div>
+		<span class="ref">Картинки</span>
+		<span class="ref">Почта</span>
+	</div>
+	<div id="content">
+		<img src="https://www.google.ru/logos/doodles/2017/115th-anniversary-of-the-antikythera-mechanisms-discovery-6292005859622912-l.png"
+			alt="logo" id="logo"/><br /><br />		
+		<form>
+			<input type="text" id="txt" />
+			<img src="http://www.gstatic.com/inputtools/images/tia.png" alt="cl" id="cl" /><br /><br />
+			<input type="button"	class="btn" value="Поиск в Google" />
+			<input type="button" class="btn" value="Мне повезёт!" />	
+		</form><br /><br />
+		<span style="font-size:12px;">Google предлагается на: <span style="color:#00f;">English</span></span>	
+	</div>
+</body>
+</body>
+</html>
